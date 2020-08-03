@@ -3,7 +3,7 @@
 $ git clone https://github.com/Marcus0086/phpMyAdmin.git
 && pkg up
 && apt install mariadb php php-apache apache2
-&& unzip phpMyAdmin.zip
+&& cd phpMyAdmin && unzip phpMyAdmin.zip
 && cp -f mysl $PREFIX/bin
 && chmod +x $PREFIX/bin/mysl
 
